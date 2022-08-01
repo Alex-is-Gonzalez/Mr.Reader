@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<h1 id="title">How Many Books Have You Read?</h1>
+		<section id="addBooks">
+			<div>
+				<img src="img/teach.png" alt="">
+			
+			</div>
+			<div> 
+				<h1 >Add A New Book</h1>
+				<input type="number" placeholder="ISBN #">
+				<button type="button" name="button">Add Book</button>
+				<p>
+					Help Ms. D garden! For every book you read Mrs. D gets a cactus in her garden!
+				</p>
+			
+				<h4 id="error"></h4>
+				<h4 id="success"></h4>
+			</div>
+			
+		</section>	
+		<h2>Your Reading List: </h3>
+		<!-- Reading List From Local Storage -->
+		<h3 id="totalBks"></h3>
+		<!-- Page Total From Local Storage -->
+		<h3 id ="totalPgs"> </h3>
+		
+		<section id= "garden" >
+			<div id="cactusGarden">
+				<img id="cat" src="" alt="">
+			</div>
+		</section>
+		
+		
+	
+		
+		
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

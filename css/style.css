@@ -1,0 +1,81 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background-color : lightblue;
+  font-family: 'Shadows Into Light';
+  padding: 30px;
+  text-align: center;
+  
+}
+#totalPgs {
+  text-decoration: underline;
+}
+
+div {
+  text-align: center;
+
+}
+button, input {
+  background-color: rgb(244, 230, 204);
+  border-radius: 25%;
+  height: 40px;
+}
+
+#title, #addBooks   {
+  text-align: center;
+  border: 3px solid rgb(244, 230, 204);
+  
+}
+
+/* section {
+  justify-content: center;
+} */
+#addBooks  {
+  padding: 10px;
+  display: flex;
+ 
+  
+}
+#garden {
+  background-color: burlywood;
+  border: 3px solid brown;
+  height: auto;
+  width: auto;
+
+}
+#cactusGarden img {
+  flex-direction: row
+}
+#error {
+  color: red;
+}
+
+#success {
+  color: green;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media only screen and (max-width: 650px) {
+  body {
+    background-color: lightblue;
+  }
+  #addBooks  {
+    padding: 10px;
+    flex-wrap: wrap;
+   
+    
+  }
+}
